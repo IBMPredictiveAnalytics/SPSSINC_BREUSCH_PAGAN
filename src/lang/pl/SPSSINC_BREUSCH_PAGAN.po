@@ -1,0 +1,121 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SPSSINC_BREUSCH_PAGAN.R:85
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Pakiet R %s jest wymagany, ale nie można było go wczytać."
+
+#: SPSSINC_BREUSCH_PAGAN.R:108
+msgid "ERROR:"
+msgstr ""
+"BŁĄD:"
+
+#: SPSSINC_BREUSCH_PAGAN.R:115
+msgid "Residual standard error: "
+msgstr ""
+"Standardowy błąd resztowy: "
+
+#: SPSSINC_BREUSCH_PAGAN.R:116
+msgid "Degrees of freedom: "
+msgstr ""
+"Stopnie swobody: "
+
+#: SPSSINC_BREUSCH_PAGAN.R:117
+msgid "R-Squared: "
+msgstr ""
+"R-kwadrat: "
+
+#: SPSSINC_BREUSCH_PAGAN.R:118
+msgid "Adjusted R-Squared: "
+msgstr ""
+"Poprawione R-kwadrat: "
+
+#: SPSSINC_BREUSCH_PAGAN.R:155
+msgid "Test Result"
+msgstr ""
+"Wynik testu"
+
+#: SPSSINC_BREUSCH_PAGAN.R:157
+msgid "Residual Heteroscedasticity Test"
+msgstr ""
+"Test resztowej heteroskedastyczności"
+
+#: SPSSINC_BREUSCH_PAGAN.R:160
+msgid "Coefficients"
+msgstr ""
+"Współczynniki"
+
+#: SPSSINC_BREUSCH_PAGAN.R:165
+msgid "fitted values"
+msgstr ""
+"wartości dopasowane"
+
+#: SPSSINC_BREUSCH_PAGAN.R:169
+msgid "Variance model: "
+msgstr ""
+"Model wariancji: "
+
+#: SPSSINC_BREUSCH_PAGAN.R:170
+msgid "Computed by R %s function"
+msgstr ""
+"Obliczony przez funkcję R %s"
+
+#: SPSSINC_BREUSCH_PAGAN.R:174
+msgid "ChiSquare"
+msgstr ""
+"ChiSquare"
+
+#: SPSSINC_BREUSCH_PAGAN.R:174
+msgid "D.f"
+msgstr ""
+"D.f"
+
+#: SPSSINC_BREUSCH_PAGAN.R:174
+msgid "Sig."
+msgstr ""
+"Ist."
+
+#: SPSSINC_BREUSCH_PAGAN.R:185
+msgid "Case Number"
+msgstr ""
+"Numer obserwacji"
+
+#: SPSSINC_BREUSCH_PAGAN.R:193
+msgid "Failed to create residuals dataset. Dataset name must not already exist: "
+msgstr ""
+"Nie udało się utworzyć zbioru danych reszt. Nazwa zbioru danych nie może już istnieć: "
+
+#: SPSSINC_BREUSCH_PAGAN.R:198
+msgid "Variable or Factor Value"
+msgstr ""
+"Zmienna dla wartości czynnika"
+
+#: SPSSINC_BREUSCH_PAGAN.R:199
+msgid "Estimated Coefficient"
+msgstr ""
+"Szacowany współczynnik"
+
+#: SPSSINC_BREUSCH_PAGAN.R:205
+msgid "Failed to create coefficients dataset. Dataset name must not already exist: "
+msgstr ""
+"Nie udało się utworzyć zbioru danych współczynników. Nazwa zbioru danych nie może już istnieć: "
+
+
