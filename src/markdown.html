@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>SPSSINC BREUSCH PAGAN Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<!-- rmarkdown v1 -->
+
+<h1>SPSSINC BREUSCH PAGAN Extension Command</h1>
+
+<p>Execute the R Breusch-Pagan test for heteroscedasticity.</p>
+
+<div class="syntax">
+<p>SPSSINC BREUSCH PAGAN DEPENDENT=<em>dependent variable</em><sup>&#42;</sup><br/>
+ENTER=<em>independent variables</em><sup>&#42;</sup>
+VARIANCEMODEL= <em>list-of-predictors</em><br/>
+/OPTIONS MISSING=LISTWISE<sup>&#42;&#42;</sup> or FAIL EXECUTE=YES<sup>&#42;&#42;</sup> or NO<br/>
+/SAVE RESIDUALSDATASET=<em>datasetname</em> COEFSDATASET=<em>datasetname</em><br/>
+  PROGRAMFILE=&ldquo;<em>filespec</em>&rdquo;  </p>
+
+<p>Split files and weight are not honored by this command.</p>
+
+
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>SPSSINC BREUSCH PAGAN /HELP prints this information and does nothing else.</p>
+<pre class="example"><code>SPSSINC BREUSCH PAGAN DEPENDENT=mpg ENTER=engine weight.
+</code></pre>
+
+<p><strong>DEPENDENT</strong> and <strong>ENTER</strong> specify the dependent and independent
+variable names.  They are the only required items.
+Categorical independent variables are automatically converted
+appropriately to factors.  A constant term is automatically included.</p>
+
+<p>By default, the test for heteroscedasticity is against the level of the dependent
+variable.  Specify <strong>VARIANCEMODEL</strong>=v1 &hellip; vn to test against the alternate
+hypothesis that the variance is a function of variables v1 &hellip; vn.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>MISSING</strong>=LISTWISE causes listwise deletion of missing values. FAIL 
+stops the procedure if missing values are encountered.</p>
+
+<p><strong>EXECUTE</strong>=FALSE runs the command syntax without running the Breusch-Pagan test.<br/>
+This is mainly useful in combination with SAVE PROGRAMFILE.</p>
+
+<h2>SAVE</h2>
+
+<p><strong>RESIDUALSDATASET</strong> causes a dataset containing the residuals to be created.
+The dataset name must not already be in use.
+The case number is included as cases will only be written for input cases with no
+missing data.  Data filtered by IBM SPSS Statistics are not passed to R and will not
+generate cases in the residuals dataset.</p>
+
+<p><strong>COEFSDATASET</strong> causes a new dataset containing the coefficients to be created.
+The dataset name must not already be in use.</p>
+
+<p><strong>PROGRAMFILE</strong> causes the R code that implements the Breusch-Pagan test to be written
+to the specified file. The generated program can be a useful starting point 
+for additional specifications.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
