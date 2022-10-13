@@ -1,4 +1,5 @@
 Name: SPSSINC BREUSCH PAGAN
+Display-Name: Breusch-Pagan Heteroscedasticity Test
 Dialog-Specs: SPSSINC_BREUSCH_PAGAN.spd
 Command-Specs: SPSSINC_BREUSCH_PAGAN.xml
 Code-Files: SPSSINC_BREUSCH_PAGAN.R
